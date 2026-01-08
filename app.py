@@ -12,7 +12,7 @@ def main():
     with st.sidebar:
         st.header("⚙️ Settings")
         # api_key = st.text_input("Enter Google Gemini API Key", type="password", help="Get your key from https://aistudio.google.com/")
-        api_key = "AIzaSyDS5CIrsxC0ePmd49o5nuIYtNyIdy9vlxc"
+        api_key = "API KEY"
         
         mode = st.radio("Select Mode", ["Paraphrase", "Humanize"])
         
@@ -70,3 +70,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
